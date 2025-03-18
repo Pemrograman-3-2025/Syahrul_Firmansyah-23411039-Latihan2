@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- -=-=-=NavBar=-=-=- -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Character list</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="char_list.html">Other characters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new_char.html">New character</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- -=-=Carousel=-=- -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/EvgSplashArt.png" class="d-block w-100 object-fit-cover" alt="..." height="1000">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Look</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/EvergreenHead.png" class="d-block w-100 object-fit-cover" alt="..." height="1000">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>At</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/ShyEvergreen(Transparent).png" class="d-block w-100 object-fit-cover" alt="..."
+                    height="1000">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Me!</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- -=-=cards=-=- -->
+    <div class="container mt-4 mb-4">
+        <!-- <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card">
+                    <img src="img/OC-tober Day 6.png" class="card-img-top object-fit-cover" alt="..." height="400">
+                    <div class="card-body">
+                        <h5 class="card-title">Lily</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card">
+                    <img src="img/OC-tober Day 2.png" class="card-img-top object-fit-cover" alt="..." height="400">
+                    <div class="card-body">
+                        <h5 class="card-title">Marie</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card">
+                    <img src="img/OC-tober Day 8.png" class="card-img-top object-fit-cover" alt="..." height="400">
+                    <div class="card-body">
+                        <h5 class="card-title">Gargaroth</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row mt-4 mb-4">
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/RC6wQ-75uQU?si=WKY40XSFS0F-OO-u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <h4>Something something</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium ipsum, eaque deserunt aliquam aspernatur odit harum similique placeat eligendi fuga fugit, quidem exercitationem totam est corrupti officiis, consequuntur veritatis!</p>
+                </div>
+            </div>
+        </div> -->
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">name</th>
+                    <th scope="col">age</th>
+                    <th scope="col">gender</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>Evergreen</td>
+                    <td>207</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Marie</td>
+                    <td>19</td>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Gargaroth</td>
+                    <td>23</td>
+                    <td>Male</td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+</body>
+
+</html>
